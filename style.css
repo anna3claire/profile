@@ -1,0 +1,69 @@
+/*body{background-color: #929aab;
+}*/
+/*body {
+  background: url(images/unsplash.jpg);
+}*/
+
+body, html {
+    background-image: url("images/unsplash_four.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1500px rgba(255, 255, 255, .70);
+    opacity: .90;
+    background-attachment:fixed;
+
+}
+
+h1, h2{font-family: 'Playfair Display', serif;
+}
+p, td{font-family: 'Lora', serif;}
+
+a{
+
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center
+}
+.card {
+  background-color:white;
+  border: 20px;
+  border-radius: 5px;
+  margin: 15px;
+  padding-top: 2px;
+  padding-right: 25px;
+  padding-bottom: 2px;
+  padding-left: 25px;
+}
+
+.profileimage{
+  width:200px;
+  border-radius: 50%
+}
+.catimage{
+  width: 200px;
+  border-radius:20%;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 0px;
+
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
